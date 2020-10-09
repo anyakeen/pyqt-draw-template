@@ -48,20 +48,6 @@ class Example(QWidget):
         qp.setBrush(QColor(200, 0, 0))
         qp.drawEllipse(100,100, 200,300)
         
-    def _shepp_logan ():
-    #  Standard head phantom, taken from Shepp & Logan
-        return [[   2,   .69,   .92,    0,      0,   0],
-                [-.98, .6624, .8740,    0, -.0184,   0],
-                [-.02, .1100, .3100,  .22,      0, -18],
-                [-.02, .1600, .4100, -.22,      0,  18],
-                [ .01, .2100, .2500,    0,    .35,   0],
-                [ .01, .0460, .0460,    0,     .1,   0],
-                [ .02, .0460, .0460,    0,    -.1,   0],
-                [ .01, .0460, .0230, -.08,  -.605,   0],
-                [ .01, .0230, .0230,    0,  -.606,   0],
-                [ .01, .0230, .0460,  .06,  -.605,   0]]
-
-
 App = QApplication(sys.argv) 
 window = Example() 
 sys.exit(App.exec()) 
