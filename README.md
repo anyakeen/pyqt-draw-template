@@ -1,5 +1,7 @@
 # pyqt-draw-template
 
+Draw the ellipse by pressing the button, drawing the figure in the selected region. This solution does not require drawing in the <code> graphicsView </code> element
+
 Import important QWidgets and QGui for PyQt5
 
 <code>
